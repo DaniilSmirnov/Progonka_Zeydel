@@ -215,7 +215,16 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-   
+
+        //Ввод матрицы
+    for(int e = 0;e<n;e++){
+        //расматриваем массив: строку
+        for(int g = 0;g<n;g++){
+        scanf("%d",&a [e][g]);
+
+        }
+    }
+  
     printf("\nЗадана матриця:");
     for (int i = 0; i < n; i++) {
         printf("\n %f   %f   %f ", a[i][0], a[i][1], a[i][2]);
