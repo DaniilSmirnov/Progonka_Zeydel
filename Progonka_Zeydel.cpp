@@ -8,9 +8,7 @@ using namespace std;
 
 #define eps 0.001
 #define n 3
-double a[n][n] = { 3, 1, 0,
-                  -1, 2, 0.5,
-                   0, 0.5, 3 };
+double a[n][n];
 
 double b[n] = { 1, 1.75, 2.5 };
 
